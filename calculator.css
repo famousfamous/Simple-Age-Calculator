@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin-top: auto;
+  
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  display: grid;
+  place-items: center;
+  padding-top: 15rem;
+  background-color: hsl(195, 53%, 79%, 0.5);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(5, 79, 140);
+}
+
+.container {
+
+    
+  /* creating the css gradient */
+  background-image: radial-gradient(
+    circle 369px at -2.9% 12.9%,
+    rgba(247, 234, 163, 1) 0%, rgba(236, 180, 238, 0.56) 46.4%, rgba(163, 203, 247, 1) 100.7%
+  );
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin: 10 20px;
+  width: 400px;
+  box-shadow: 5px 15px 30px rgba(128, 128, 128, 0.384);
+  vertical-align: middle;
+
+}
+
+label {
+    font-size: larger;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+input {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: large;
+    outline: none;
+    color: rgb(5, 79, 140);
+}
+
+.btns {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 15px;
+    color: rgb(5, 79, 140);
+}
+
+span {
+    font-weight: bold;
+    color: rgb(5, 79, 140);
+}
+
+ul {
+    font-size: larger;
+}
+li {
+    list-style: url(Calculator.svg);
+    
+}
+
+li::marker {
+    color: rgb(154, 179, 199);
+}
+
+p {
+    margin-top: 15rem;
+}
+
+p a {
+    text-decoration: none;
+    color: rgb(1, 90, 125);
+    cursor: pointer;
+}
+p a:hover {
+    color: rgb(1, 53, 74);
+}
+.dataBG {
+  background-color: lightblue;
+}
